@@ -1,0 +1,7 @@
+; Sample_wraped_text.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Sample_wraped_text"
+DESCRIPTION  'Sample_wraped_text Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
